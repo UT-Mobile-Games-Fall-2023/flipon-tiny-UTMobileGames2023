@@ -668,7 +668,7 @@ MonoBehaviour:
     name: Me
     allowGridAngle: 0
     power: 1
-    background: {fileID: 21300000, guid: d254bb4c46defb44d8ea71d744bf9da2, type: 3}
+    background: {fileID: 21300000, guid: 16780fec6d40f5f47993c4ec3b5fcc5f, type: 3}
     gridViewport:
       serializedVersion: 2
       x: 0
