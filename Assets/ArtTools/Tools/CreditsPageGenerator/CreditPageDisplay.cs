@@ -7,12 +7,6 @@ public class CreditPageDisplay : MonoBehaviour
     public RectTransform creditPanel;
     public GameObject creditSectionPrefab;
     public CreditPage creditPage;
-
-    private void Start()
-    {
-        PopulateCredits();
-    }
-
     public void PopulateCredits()
     {
         if (creditPage == null || creditSectionPrefab == null || creditPanel == null)
