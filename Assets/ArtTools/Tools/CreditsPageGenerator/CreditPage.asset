@@ -13,28 +13,43 @@ MonoBehaviour:
   m_Name: CreditPage
   m_EditorClassIdentifier: 
   credits:
-  - teamName: Production Team
+  - teamName: Project Manager
+    names:
+    - Chelsea
+    - Arthur
+  - teamName: OG CREDITS
     names:
     - Name
     - Name
     - Name
-  - teamName: Design Team
+  - teamName: Production
     names:
-    - Name
-    - Name
-    - Name
-  - teamName: Engineering Team
+    - John Yoon
+    - Juan Lopez
+    - Sarina Varela
+  - teamName: Game Design
     names:
-    - Name
-    - Name
-    - Name
-  - teamName: Art Team
+    - Breeze Ayala
+    - Elena Sipes
+    - Johan Rodriguez
+    - Kevin Vuong
+    - 'Schuyler Burke '
+  - teamName: Programming
     names:
-    - Name
-    - Name
-    - Name
-  - teamName: Audio Team
+    - Amelia Lewey
+    - Kacey Na
+    - Mai Naor
+    - Micheal Routh
+  - teamName: Art
     names:
-    - Name
-    - Name
-    - Name
+    - Apollo Tardy
+    - Carmen Turner
+    - Julie Cruz
+    - Oluwabukola Adekunle
+    - Phoebe Reeder
+    - Victoria Cheung
+  - teamName: Audio
+    names:
+    - Apollo Tardy
+    - Bella Cruz
+    - Elena Sipes
