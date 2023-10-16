@@ -15,6 +15,7 @@ public class MapUIScript : MonoBehaviour
 	public int score;
 	public int combos;
 	public int fourCombos;
+	public int fiveCombos;
 	public int LCombos;
 	public int timesPowerUsed;
 	public int numBlock1Broken;
@@ -73,7 +74,7 @@ public class MapUIScript : MonoBehaviour
 		}
 		if(mapInstance.currentLevelName == null)
 		{
-			GameManager.gameManager.LoadLevel();
+			mapInstance.currentLevelName = GameManager.gameManager.LoadLevel();
 		}
 	}
 }

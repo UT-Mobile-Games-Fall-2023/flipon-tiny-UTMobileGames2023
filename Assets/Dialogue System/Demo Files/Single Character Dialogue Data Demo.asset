@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0475b1b23837e148ae0aaea66617c01, type: 3}
+  m_Name: Single Character Dialogue Data Demo
+  m_EditorClassIdentifier: 
+  characterName: Cloudy King
+  sentences:
+  - Hi
+  - Bye
+  characterSprite: {fileID: 21300000, guid: 532b184d1425595459a8eda0c940bef8, type: 3}

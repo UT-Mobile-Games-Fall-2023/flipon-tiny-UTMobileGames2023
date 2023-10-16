@@ -34,7 +34,6 @@ namespace Pon
     public bool enableObjectives;
     public Objective objective;
     public PlayMode playMode;
-    public int currencyReward = 100;
 
     public static GameSettings gameSettingsInstance;
 
@@ -67,8 +66,9 @@ namespace Pon
                 objective.stats.score = MapUIScript.mapInstance.score;
                 objective.stats.totalCombos = MapUIScript.mapInstance.combos;
                 objective.stats.total4Combos = MapUIScript.mapInstance.fourCombos;
+                objective.stats.total5Combos = MapUIScript.mapInstance.fiveCombos;
+                objective.stats.totalLCombos = MapUIScript.mapInstance.LCombos;
                 objective.stats.timesPowerUsed = MapUIScript.mapInstance.timesPowerUsed;
-
                 objective.stats.numBlock1Broken = MapUIScript.mapInstance.numBlock1Broken;
                 objective.stats.numBlock2Broken = MapUIScript.mapInstance.numBlock2Broken;
                 objective.stats.numBlock3Broken = MapUIScript.mapInstance.numBlock3Broken;

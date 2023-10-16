@@ -163,7 +163,7 @@ namespace Pon
 				// Give new stats, widget will check if it's relevant
 				var currentStats = new ObjectiveStats(p, timeElapsed);
 
-				for (int i = 1; i <= 4; i++)
+				for (int i = 1; i <= 6; i++)
 				{
 					GameUIScript.UpdateObjective(p, i, currentStats);
 				}
@@ -604,14 +604,6 @@ namespace Pon
 			SetPause(true);
 			isOver = true;
 			MapUIScript.mapInstance.wonLastGame = wonGame;
-			// When the player wins, award them currency
-			if (wonGame)
-			{
-				CurrencyManager.Instance.AddCurrency(settings.currencyReward);
-				int level = Int32.Parse(Regex.Match(currentLevelName, @"\d+").Value);
-				level++;
-				GameManager.gameManager.SaveLevel("Level " + level);
-			}
 
 			// music for winning/losing 
 
@@ -629,8 +621,12 @@ namespace Pon
 
 			// Log Level end (user has won)
 			//GoogleAnalyticsHelper.AnalyticsLevelEnd(currentLevelName);
-
-
+			if (wonGame)
+			{
+				int level = Int32.Parse(Regex.Match(currentLevelName, @"\d+").Value);
+				level++;
+				GameManager.gameManager.SaveLevel("Level " + level);
+			}
 			// level ends, go back to map scene
 			SceneManager.LoadSceneAsync("Map_t");
 		}
