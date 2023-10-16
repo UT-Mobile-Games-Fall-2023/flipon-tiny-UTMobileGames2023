@@ -12,14 +12,20 @@ public class DialogueController : MonoBehaviour
     public Image characterImage;
 
     private Queue<string> sentences;
-
+    private Queue<string> names;
+    private Queue<Sprite> sprites;
+    private bool isMulti = false;
     void Start()
     {
         sentences = new Queue<string>();
+        names = new Queue<string>();
+        sprites = new Queue<Sprite>();
+
     }
 
     public void StartDialogue(SingleDialogueData dialogueData)
     {
+        isMulti = false;
         characterName.text = dialogueData.characterName;
         characterImage.sprite = dialogueData.characterSprite;
 
@@ -30,10 +36,12 @@ public class DialogueController : MonoBehaviour
             sentences.Enqueue(sentence);
         }
 
-        DisplayNextSentence();
+        DisplayNextSentenceSingleCharacter();
     }
-    public void StartDialogue(MultiDialogueData dialogueData)
+
+    public void StartMultiDialogue(MultiDialogueData dialogueData)
     {
+        isMulti = true;
         if (dialogueData == null)
         {
             Debug.LogWarning("Dialogue Data is null. Cannot start dialogue.");
@@ -46,19 +54,22 @@ public class DialogueController : MonoBehaviour
             return;
         }
 
-        characterName.text = dialogueData.dialogueEntries[0].characterName;
-        characterImage.sprite = dialogueData.dialogueEntries[0].characterSprite;
-
         sentences.Clear();
 
         foreach (MultiDialogueData.DialogueEntry entry in dialogueData.dialogueEntries)
         {
+            characterName.text = entry.characterName;
+            characterImage.sprite = entry.characterSprite;
             sentences.Enqueue(entry.sentence);
+            names.Enqueue(entry.characterName);
+            sprites.Enqueue(entry.characterSprite);
+
         }
 
-        DisplayNextSentence();
+        DisplayNextSentenceMultiCharacters();
     }
-    public void DisplayNextSentence()
+
+    public void DisplayNextSentenceSingleCharacter()
     {
         if (sentences.Count == 0)
         {
@@ -69,18 +80,39 @@ public class DialogueController : MonoBehaviour
         string sentence = sentences.Dequeue();
         dialogueText.text = sentence;
     }
-	private void Update()
-	{
+    public void DisplayNextSentenceMultiCharacters()
+    {
+        if (sentences.Count == 0)
+        {
+            EndDialogue();
+            return;
+        }
+
+        string sentence = sentences.Dequeue();
+        dialogueText.text = sentence;
+        string name = names.Dequeue();
+        characterName.text = name;
+        Sprite sprite = sprites.Dequeue();
+        characterImage.sprite = sprite;
+    }
+    private void Update()
+    {
         // Add touch input detection and call DisplayNextSentence when touched.
         if (Input.GetMouseButtonDown(0))
         {
-            DisplayNextSentence();
+			if (isMulti)
+			{
+                DisplayNextSentenceMultiCharacters();
+			}
+			else
+			{
+                DisplayNextSentenceSingleCharacter();
+            }
         }
     }
-	void EndDialogue()
+
+    void EndDialogue()
     {
         DialoguePanel.SetActive(false);
     }
 }
-
-

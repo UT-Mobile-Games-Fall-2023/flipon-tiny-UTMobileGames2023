@@ -12,5 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 110a27467b6c8ec4ab8de9241b63a5a0, type: 3}
   m_Name: Multi-Character Dialogue Data Demo
   m_EditorClassIdentifier: 
-  dialogueEntries: []
-  csvFile: {fileID: 0}
+  dialogueEntries:
+  - characterName: Character 1
+    sentence: " \"Hello there.\"\r"
+    characterSprite: {fileID: 21300000, guid: 375166582ab92e4458c590ba5b03707e, type: 3}
+  - characterName: Character 2
+    sentence: ' "How can I help you?"'
+    characterSprite: {fileID: 21300000, guid: 8f37731cde027614f9dcc3a2d5b6f5cf, type: 3}
+  csvFile: {fileID: 4900000, guid: 6ee188afa3efced46817bb35c40d493e, type: 3}
