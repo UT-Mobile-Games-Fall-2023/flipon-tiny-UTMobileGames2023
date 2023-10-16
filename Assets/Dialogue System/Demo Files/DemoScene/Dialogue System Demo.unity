@@ -123,6 +123,30 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &134919751 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5267187536712625231, guid: cd35cc66d9792df4bb1ef88cd45fb387,
+    type: 3}
+  m_PrefabInstance: {fileID: 1351333534766809584}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &400442687 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8195192936726588149, guid: cd35cc66d9792df4bb1ef88cd45fb387,
+    type: 3}
+  m_PrefabInstance: {fileID: 1351333534766809584}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d47284f35b588b149be44e55fe9d2524, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1200729504
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,6 +307,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1406733804 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4394784048466182527, guid: cd35cc66d9792df4bb1ef88cd45fb387,
+    type: 3}
+  m_PrefabInstance: {fileID: 1351333534766809584}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2019525588 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7749611088815771784, guid: cd35cc66d9792df4bb1ef88cd45fb387,
+    type: 3}
+  m_PrefabInstance: {fileID: 1351333534766809584}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1351333534766809584
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -436,6 +484,22 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.6509804
       objectReference: {fileID: 0}
+    - target: {fileID: 3356544137676251881, guid: cd35cc66d9792df4bb1ef88cd45fb387,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 400442687}
+    - target: {fileID: 3356544137676251881, guid: cd35cc66d9792df4bb1ef88cd45fb387,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StartMultiDialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 3356544137676251881, guid: cd35cc66d9792df4bb1ef88cd45fb387,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: d92f7aefb94f87345b9418c731cc63c2,
+        type: 2}
     - target: {fileID: 4366704462037909273, guid: cd35cc66d9792df4bb1ef88cd45fb387,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -555,6 +619,26 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7771678977506119863, guid: cd35cc66d9792df4bb1ef88cd45fb387,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195192936726588149, guid: cd35cc66d9792df4bb1ef88cd45fb387,
+        type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 2019525588}
+    - target: {fileID: 8195192936726588149, guid: cd35cc66d9792df4bb1ef88cd45fb387,
+        type: 3}
+      propertyPath: characterName
+      value: 
+      objectReference: {fileID: 134919751}
+    - target: {fileID: 8195192936726588149, guid: cd35cc66d9792df4bb1ef88cd45fb387,
+        type: 3}
+      propertyPath: characterImage
+      value: 
+      objectReference: {fileID: 1406733804}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

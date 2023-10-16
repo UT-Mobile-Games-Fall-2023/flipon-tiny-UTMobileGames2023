@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
 	public static GameManager gameManager;
 	public Transform lvlParent;
 	public LvlUnlockContainer lvlUnlocks;
-	public Image[] CorruptBackgrounds;
+	private Image[] CorruptBackgrounds = null;
 	private void Awake()
 	{
 		if (gameManager == null)
@@ -38,6 +38,7 @@ public class GameManager : MonoBehaviour
 		lvlUnlocks.LvlUnlockStates = new bool[lvlParent.childCount];
 
 		MapUIScript.mapInstance.currentLevelName = LoadLevel();
+
 
 	}
 	public static void RevealMap(Image mask, float progression)
@@ -97,28 +98,30 @@ public class GameManager : MonoBehaviour
 	{
 		string resultString = Regex.Match(levelString, @"\d+").Value;
 		int level = Int32.Parse(resultString);
-		int region = level / 5;
-		if (region <= 1)
+		if (CorruptBackgrounds != null)
 		{
-			CorruptBackgrounds[0].fillAmount = 1 - ((level - 1) % 5 * 0.2f);
+			int region = level / 5;
+			if (region <= 1)
+			{
+				CorruptBackgrounds[0].fillAmount = 1 - ((level - 1) % 5 * 0.2f);
+			}
+			else if (1 < region && region <= 2)
+			{
+				CorruptBackgrounds[1].fillAmount = 1 - ((level - 1) % 5 * 0.2f);
+			}
+			else if (2 < region && region <= 3)
+			{
+				CorruptBackgrounds[2].fillAmount = 1 - ((level - 1) % 5 * 0.2f);
+			}
+			else if (3 < region && region <= 4)
+			{
+				CorruptBackgrounds[3].fillAmount = 1 - ((level - 1) % 5 * 0.2f);
+			}
+			else if (region > 4)
+			{
+				CorruptBackgrounds[4].fillAmount = 0;
+			}
 		}
-		else if (1 < region && region <= 2)
-		{
-			CorruptBackgrounds[1].fillAmount = 1 - ((level - 1) % 5 * 0.2f);
-		}
-		else if (2 < region && region <= 3)
-		{
-			CorruptBackgrounds[2].fillAmount = 1 - ((level - 1) % 5 * 0.2f);
-		}
-		else if (3 < region && region <= 4)
-		{
-			CorruptBackgrounds[3].fillAmount = 1 - ((level - 1) % 5 * 0.2f);
-		}
-		else if (region > 4)
-		{
-			CorruptBackgrounds[4].fillAmount = 0;
-		}
-
 		for (int i = 0; i < level; i++)
 		{
 			lvlUnlocks.LvlUnlockStates[i] = true;

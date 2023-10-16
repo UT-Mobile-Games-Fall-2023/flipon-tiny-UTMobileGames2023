@@ -163,7 +163,7 @@ namespace Pon
 				// Give new stats, widget will check if it's relevant
 				var currentStats = new ObjectiveStats(p, timeElapsed);
 
-				for (int i = 1; i <= 4; i++)
+				for (int i = 1; i <= 6; i++)
 				{
 					GameUIScript.UpdateObjective(p, i, currentStats);
 				}

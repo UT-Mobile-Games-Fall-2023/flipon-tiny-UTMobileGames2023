@@ -153,7 +153,7 @@ Transform:
   m_GameObject: {fileID: 8341762}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.6062, y: 47.2575, z: 0}
+  m_LocalPosition: {x: -0.2, y: 48, z: 0}
   m_LocalScale: {x: 0.45613828, y: 0.4245734, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -189,17 +189,18 @@ MonoBehaviour:
   timeLimit: 0
   timeToSurvive: 0
   numStartingLines: 0
-  score: 5000
+  score: 8000
   combos: 0
-  fourCombos: 5
-  LCombos: 0
-  timesPowerUsed: 2
-  numBlock1Broken: 0
+  fourCombos: 0
+  fiveCombos: 0
+  LCombos: 5
+  timesPowerUsed: 0
+  numBlueBlockBroken: 6
   numBlock2Broken: 0
-  numBlock3Broken: 0
-  numBlock4Broken: 0
+  numRedBlockBroken: 6
+  numPinkBlockBroken: 6
   numBlock5Broken: 0
-  numBlock6Broken: 0
+  numYellowBlock6Broken: 6
 --- !u!50 &8341766
 Rigidbody2D:
   serializedVersion: 4
@@ -442,7 +443,7 @@ Transform:
   m_GameObject: {fileID: 74722951}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.4317, y: 35.1154, z: 0}
+  m_LocalPosition: {x: -0.2, y: 36, z: 0}
   m_LocalScale: {x: 0.45613828, y: 0.4245734, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -478,17 +479,18 @@ MonoBehaviour:
   timeLimit: 0
   timeToSurvive: 0
   numStartingLines: 0
-  score: 1000
-  combos: 12
+  score: 0
+  combos: 0
   fourCombos: 0
-  LCombos: 0
+  fiveCombos: 0
+  LCombos: 3
   timesPowerUsed: 0
-  numBlock1Broken: 0
+  numBlueBlockBroken: 0
   numBlock2Broken: 0
-  numBlock3Broken: 0
-  numBlock4Broken: 0
+  numRedBlockBroken: 0
+  numPinkBlockBroken: 0
   numBlock5Broken: 0
-  numBlock6Broken: 0
+  numYellowBlock6Broken: 0
 --- !u!50 &74722955
 Rigidbody2D:
   serializedVersion: 4
@@ -1022,7 +1024,7 @@ Transform:
   m_GameObject: {fileID: 203935310}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.2702, y: 29.5424, z: 0}
+  m_LocalPosition: {x: -0.2, y: 30, z: 0}
   m_LocalScale: {x: 0.43063998, y: 0.46032, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1058,17 +1060,18 @@ MonoBehaviour:
   timeLimit: 0
   timeToSurvive: 0
   numStartingLines: 0
-  score: 2500
+  score: 0
   combos: 0
   fourCombos: 0
+  fiveCombos: 5
   LCombos: 0
-  timesPowerUsed: 1
-  numBlock1Broken: 20
+  timesPowerUsed: 0
+  numBlueBlockBroken: 0
   numBlock2Broken: 0
-  numBlock3Broken: 10
-  numBlock4Broken: 0
+  numRedBlockBroken: 0
+  numPinkBlockBroken: 10
   numBlock5Broken: 0
-  numBlock6Broken: 0
+  numYellowBlock6Broken: 10
 --- !u!50 &203935314
 Rigidbody2D:
   serializedVersion: 4
@@ -1712,7 +1715,7 @@ Transform:
   m_GameObject: {fileID: 301712930}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.1043, y: 44.7314, z: 0}
+  m_LocalPosition: {x: -1.2, y: 45, z: 0}
   m_LocalScale: {x: 0.45613828, y: 0.4245734, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1748,17 +1751,18 @@ MonoBehaviour:
   timeLimit: 0
   timeToSurvive: 0
   numStartingLines: 0
-  score: 1250
+  score: 0
   combos: 0
   fourCombos: 0
-  LCombos: 0
+  fiveCombos: 5
+  LCombos: 3
   timesPowerUsed: 0
-  numBlock1Broken: 20
+  numBlueBlockBroken: 0
   numBlock2Broken: 0
-  numBlock3Broken: 0
-  numBlock4Broken: 20
+  numRedBlockBroken: 0
+  numPinkBlockBroken: 0
   numBlock5Broken: 0
-  numBlock6Broken: 0
+  numYellowBlock6Broken: 0
 --- !u!50 &301712934
 Rigidbody2D:
   serializedVersion: 4
@@ -2098,7 +2102,7 @@ Transform:
   m_GameObject: {fileID: 314902528}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.51, y: 18.54, z: 0}
+  m_LocalPosition: {x: -0.2, y: 19, z: 0}
   m_LocalScale: {x: 0.24999999, y: 0.24999999, z: 0.24999999}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -2134,17 +2138,18 @@ MonoBehaviour:
   timeLimit: 0
   timeToSurvive: 0
   numStartingLines: 0
-  score: 0
+  score: 4000
   combos: 0
-  fourCombos: 5
+  fourCombos: 10
+  fiveCombos: 0
   LCombos: 0
-  timesPowerUsed: 4
-  numBlock1Broken: 0
+  timesPowerUsed: 0
+  numBlueBlockBroken: 15
   numBlock2Broken: 0
-  numBlock3Broken: 0
-  numBlock4Broken: 0
+  numRedBlockBroken: 15
+  numPinkBlockBroken: 0
   numBlock5Broken: 0
-  numBlock6Broken: 0
+  numYellowBlock6Broken: 0
 --- !u!50 &314902532
 Rigidbody2D:
   serializedVersion: 4
@@ -2773,7 +2778,7 @@ Transform:
   m_GameObject: {fileID: 383209919}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.2902, y: 41.4623, z: 0}
+  m_LocalPosition: {x: 0.2, y: 42, z: 0}
   m_LocalScale: {x: 0.45613828, y: 0.4245734, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -2809,17 +2814,18 @@ MonoBehaviour:
   timeLimit: 0
   timeToSurvive: 0
   numStartingLines: 0
-  score: 4000
-  combos: 10
-  fourCombos: 0
-  LCombos: 1
+  score: 0
+  combos: 0
+  fourCombos: 4
+  fiveCombos: 0
+  LCombos: 3
   timesPowerUsed: 0
-  numBlock1Broken: 0
+  numBlueBlockBroken: 0
   numBlock2Broken: 0
-  numBlock3Broken: 0
-  numBlock4Broken: 0
+  numRedBlockBroken: 0
+  numPinkBlockBroken: 0
   numBlock5Broken: 0
-  numBlock6Broken: 0
+  numYellowBlock6Broken: 0
 --- !u!50 &383209923
 Rigidbody2D:
   serializedVersion: 4
@@ -3168,7 +3174,7 @@ Transform:
   m_GameObject: {fileID: 428467462}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.18, y: 3.53, z: 0}
+  m_LocalPosition: {x: -1.2, y: 4, z: 0}
   m_LocalScale: {x: 0.46967, y: 0.49954098, z: 0.46967}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3190,17 +3196,18 @@ MonoBehaviour:
   timeLimit: 0
   timeToSurvive: 0
   numStartingLines: 0
-  score: 0
-  combos: 0
+  score: 2000
+  combos: 20
   fourCombos: 0
+  fiveCombos: 0
   LCombos: 0
   timesPowerUsed: 0
-  numBlock1Broken: 0
+  numBlueBlockBroken: 10
   numBlock2Broken: 0
-  numBlock3Broken: 24
-  numBlock4Broken: 0
+  numRedBlockBroken: 10
+  numPinkBlockBroken: 10
   numBlock5Broken: 0
-  numBlock6Broken: 0
+  numYellowBlock6Broken: 10
 --- !u!50 &428467465
 Rigidbody2D:
   serializedVersion: 4
@@ -4321,7 +4328,7 @@ Transform:
   m_GameObject: {fileID: 1081980264}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.9256, z: 0}
+  m_LocalPosition: {x: 0.2, y: 1, z: 0}
   m_LocalScale: {x: 0.46967, y: 0.49954098, z: 0.46967}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4358,16 +4365,17 @@ MonoBehaviour:
   timeToSurvive: 0
   numStartingLines: 0
   score: 0
-  combos: 0
+  combos: 15
   fourCombos: 0
+  fiveCombos: 0
   LCombos: 0
   timesPowerUsed: 1
-  numBlock1Broken: 0
+  numBlueBlockBroken: 10
   numBlock2Broken: 0
-  numBlock3Broken: 0
-  numBlock4Broken: 0
+  numRedBlockBroken: 10
+  numPinkBlockBroken: 10
   numBlock5Broken: 0
-  numBlock6Broken: 13
+  numYellowBlock6Broken: 0
 --- !u!50 &1081980268
 Rigidbody2D:
   serializedVersion: 4
@@ -4669,7 +4677,7 @@ Transform:
   m_GameObject: {fileID: 1138500820}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.09, y: -2.3502, z: 0}
+  m_LocalPosition: {x: 1.2, y: -2, z: 0}
   m_LocalScale: {x: 0.46967, y: 0.49954098, z: 0.46967}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4771,16 +4779,17 @@ MonoBehaviour:
   timeToSurvive: 0
   numStartingLines: 0
   score: 0
-  combos: 8
+  combos: 10
   fourCombos: 0
+  fiveCombos: 0
   LCombos: 0
   timesPowerUsed: 0
-  numBlock1Broken: 0
+  numBlueBlockBroken: 0
   numBlock2Broken: 0
-  numBlock3Broken: 0
-  numBlock4Broken: 0
+  numRedBlockBroken: 0
+  numPinkBlockBroken: 10
   numBlock5Broken: 0
-  numBlock6Broken: 0
+  numYellowBlock6Broken: 10
 --- !u!114 &1138500826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5017,7 +5026,7 @@ Transform:
   m_GameObject: {fileID: 1155136568}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.14, y: 6.58, z: 0}
+  m_LocalPosition: {x: -0.2, y: 7, z: 0}
   m_LocalScale: {x: 0.24999999, y: 0.24999999, z: 0.24999999}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -5039,17 +5048,18 @@ MonoBehaviour:
   timeLimit: 0
   timeToSurvive: 0
   numStartingLines: 0
-  score: 1000
-  combos: 12
-  fourCombos: 0
+  score: 0
+  combos: 0
+  fourCombos: 5
+  fiveCombos: 0
   LCombos: 0
   timesPowerUsed: 0
-  numBlock1Broken: 0
+  numBlueBlockBroken: 0
   numBlock2Broken: 0
-  numBlock3Broken: 0
-  numBlock4Broken: 0
+  numRedBlockBroken: 0
+  numPinkBlockBroken: 0
   numBlock5Broken: 0
-  numBlock6Broken: 0
+  numYellowBlock6Broken: 0
 --- !u!50 &1155136571
 Rigidbody2D:
   serializedVersion: 4
@@ -5595,7 +5605,7 @@ Transform:
   m_GameObject: {fileID: 1279794287}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.792, y: 37.9598, z: 0}
+  m_LocalPosition: {x: 1.2, y: 39, z: 0}
   m_LocalScale: {x: 0.45613828, y: 0.4245734, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -5633,15 +5643,16 @@ MonoBehaviour:
   numStartingLines: 0
   score: 0
   combos: 0
-  fourCombos: 4
-  LCombos: 1
+  fourCombos: 0
+  fiveCombos: 0
+  LCombos: 5
   timesPowerUsed: 2
-  numBlock1Broken: 0
+  numBlueBlockBroken: 0
   numBlock2Broken: 0
-  numBlock3Broken: 0
-  numBlock4Broken: 0
+  numRedBlockBroken: 0
+  numPinkBlockBroken: 0
   numBlock5Broken: 0
-  numBlock6Broken: 0
+  numYellowBlock6Broken: 0
 --- !u!50 &1279794291
 Rigidbody2D:
   serializedVersion: 4
@@ -5981,7 +5992,7 @@ Transform:
   m_GameObject: {fileID: 1312518549}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.548, y: 20.9688, z: 0}
+  m_LocalPosition: {x: 1.2, y: 21, z: 0}
   m_LocalScale: {x: 0.43063998, y: 0.46032, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -6017,17 +6028,18 @@ MonoBehaviour:
   timeLimit: 0
   timeToSurvive: 0
   numStartingLines: 0
-  score: 500
+  score: 0
   combos: 0
   fourCombos: 0
+  fiveCombos: 3
   LCombos: 0
-  timesPowerUsed: 0
-  numBlock1Broken: 24
+  timesPowerUsed: 1
+  numBlueBlockBroken: 0
   numBlock2Broken: 0
-  numBlock3Broken: 0
-  numBlock4Broken: 0
+  numRedBlockBroken: 0
+  numPinkBlockBroken: 0
   numBlock5Broken: 0
-  numBlock6Broken: 0
+  numYellowBlock6Broken: 0
 --- !u!50 &1312518553
 Rigidbody2D:
   serializedVersion: 4
@@ -6801,14 +6813,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb648653e16e2e46915ce9227b119a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lvlParent: {fileID: 0}
+  lvlParent: {fileID: 1672973309}
   lvlUnlocks: {fileID: 272195030}
-  CorruptBackgrounds:
-  - {fileID: 5880947657188552590}
-  - {fileID: 8105377368643140602}
-  - {fileID: 7403793258449656327}
-  - {fileID: 8356474064891631862}
-  - {fileID: 2170266035492785332}
 --- !u!4 &1476292653
 Transform:
   m_ObjectHideFlags: 0
@@ -6960,7 +6966,7 @@ Transform:
   m_GameObject: {fileID: 1490468287}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.5, y: -8.0936, z: 0}
+  m_LocalPosition: {x: -1.2, y: -8, z: 0}
   m_LocalScale: {x: 0.46967, y: 0.49954098, z: 0.46967}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6982,17 +6988,18 @@ MonoBehaviour:
   timeLimit: 0
   timeToSurvive: 0
   numStartingLines: 0
-  score: 500
+  score: 0
   combos: 0
   fourCombos: 0
+  fiveCombos: 0
   LCombos: 0
   timesPowerUsed: 0
-  numBlock1Broken: 0
+  numBlueBlockBroken: 0
   numBlock2Broken: 0
-  numBlock3Broken: 0
-  numBlock4Broken: 0
+  numRedBlockBroken: 10
+  numPinkBlockBroken: 0
   numBlock5Broken: 0
-  numBlock6Broken: 0
+  numYellowBlock6Broken: 0
 --- !u!50 &1490468290
 Rigidbody2D:
   serializedVersion: 4
@@ -7648,7 +7655,7 @@ Transform:
   m_GameObject: {fileID: 1599654870}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.5899999, y: 9.710001, z: 0}
+  m_LocalPosition: {x: 1.2, y: 10, z: 0}
   m_LocalScale: {x: 0.24999999, y: 0.24999999, z: 0.24999999}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -7686,15 +7693,16 @@ MonoBehaviour:
   numStartingLines: 0
   score: 0
   combos: 0
-  fourCombos: 4
+  fourCombos: 10
+  fiveCombos: 0
   LCombos: 0
-  timesPowerUsed: 1
-  numBlock1Broken: 0
+  timesPowerUsed: 0
+  numBlueBlockBroken: 0
   numBlock2Broken: 0
-  numBlock3Broken: 0
-  numBlock4Broken: 0
+  numRedBlockBroken: 0
+  numPinkBlockBroken: 0
   numBlock5Broken: 0
-  numBlock6Broken: 0
+  numYellowBlock6Broken: 0
 --- !u!50 &1599654874
 Rigidbody2D:
   serializedVersion: 4
@@ -8591,7 +8599,7 @@ Transform:
   m_GameObject: {fileID: 1692229904}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.3899, y: 25.9978, z: 0}
+  m_LocalPosition: {x: -1.2, y: 27, z: 0}
   m_LocalScale: {x: 0.43063998, y: 0.46032, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -8629,15 +8637,16 @@ MonoBehaviour:
   numStartingLines: 0
   score: 0
   combos: 0
-  fourCombos: 3
+  fourCombos: 5
+  fiveCombos: 3
   LCombos: 0
   timesPowerUsed: 0
-  numBlock1Broken: 0
+  numBlueBlockBroken: 0
   numBlock2Broken: 0
-  numBlock3Broken: 0
-  numBlock4Broken: 0
+  numRedBlockBroken: 0
+  numPinkBlockBroken: 0
   numBlock5Broken: 0
-  numBlock6Broken: 0
+  numYellowBlock6Broken: 0
 --- !u!50 &1692229908
 Rigidbody2D:
   serializedVersion: 4
@@ -9076,7 +9085,7 @@ Transform:
   m_GameObject: {fileID: 1755681613}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.7215, y: 32.2123, z: 0}
+  m_LocalPosition: {x: 1.2, y: 33, z: 0}
   m_LocalScale: {x: 0.43063998, y: 0.46032, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -9112,17 +9121,18 @@ MonoBehaviour:
   timeLimit: 0
   timeToSurvive: 0
   numStartingLines: 0
-  score: 0
+  score: 6000
   combos: 0
-  fourCombos: 0
+  fourCombos: 5
+  fiveCombos: 5
   LCombos: 0
   timesPowerUsed: 0
-  numBlock1Broken: 0
+  numBlueBlockBroken: 5
   numBlock2Broken: 0
-  numBlock3Broken: 24
-  numBlock4Broken: 0
+  numRedBlockBroken: 5
+  numPinkBlockBroken: 0
   numBlock5Broken: 0
-  numBlock6Broken: 0
+  numYellowBlock6Broken: 0
 --- !u!50 &1755681617
 Rigidbody2D:
   serializedVersion: 4
@@ -9530,7 +9540,7 @@ Transform:
   m_GameObject: {fileID: 1901384247}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.36, y: 51.16, z: 0}
+  m_LocalPosition: {x: 0.36, y: 52, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -9566,17 +9576,18 @@ MonoBehaviour:
   timeLimit: 0
   timeToSurvive: 0
   numStartingLines: 0
-  score: 0
-  combos: 20
-  fourCombos: 5
-  LCombos: 0
-  timesPowerUsed: 2
-  numBlock1Broken: 0
+  score: 10000
+  combos: 0
+  fourCombos: 10
+  fiveCombos: 7
+  LCombos: 5
+  timesPowerUsed: 0
+  numBlueBlockBroken: 10
   numBlock2Broken: 0
-  numBlock3Broken: 0
-  numBlock4Broken: 0
+  numRedBlockBroken: 10
+  numPinkBlockBroken: 0
   numBlock5Broken: 0
-  numBlock6Broken: 0
+  numYellowBlock6Broken: 0
 --- !u!50 &1901384251
 Rigidbody2D:
   serializedVersion: 4
@@ -9992,7 +10003,7 @@ Transform:
   m_GameObject: {fileID: 1983022835}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.15, y: 13.01, z: 0}
+  m_LocalPosition: {x: 0.2, y: 13, z: 0}
   m_LocalScale: {x: 0.24999999, y: 0.24999999, z: 0.24999999}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -10029,16 +10040,17 @@ MonoBehaviour:
   timeToSurvive: 0
   numStartingLines: 0
   score: 0
-  combos: 10
-  fourCombos: 0
-  LCombos: 1
-  timesPowerUsed: 0
-  numBlock1Broken: 0
+  combos: 0
+  fourCombos: 5
+  fiveCombos: 0
+  LCombos: 0
+  timesPowerUsed: 2
+  numBlueBlockBroken: 0
   numBlock2Broken: 0
-  numBlock3Broken: 0
-  numBlock4Broken: 0
+  numRedBlockBroken: 0
+  numPinkBlockBroken: 10
   numBlock5Broken: 0
-  numBlock6Broken: 0
+  numYellowBlock6Broken: 0
 --- !u!50 &1983022839
 Rigidbody2D:
   serializedVersion: 4
@@ -10570,7 +10582,7 @@ Transform:
   m_GameObject: {fileID: 1985029635}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.11, y: 16.09, z: 0}
+  m_LocalPosition: {x: -1.2, y: 16, z: 0}
   m_LocalScale: {x: 0.24999999, y: 0.24999999, z: 0.24999999}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -10606,17 +10618,18 @@ MonoBehaviour:
   timeLimit: 0
   timeToSurvive: 0
   numStartingLines: 0
-  score: 1250
+  score: 0
   combos: 0
-  fourCombos: 0
+  fourCombos: 10
+  fiveCombos: 0
   LCombos: 0
   timesPowerUsed: 0
-  numBlock1Broken: 20
+  numBlueBlockBroken: 0
   numBlock2Broken: 0
-  numBlock3Broken: 0
-  numBlock4Broken: 20
+  numRedBlockBroken: 0
+  numPinkBlockBroken: 0
   numBlock5Broken: 0
-  numBlock6Broken: 0
+  numYellowBlock6Broken: 20
 --- !u!50 &1985029639
 Rigidbody2D:
   serializedVersion: 4
@@ -11413,7 +11426,7 @@ Transform:
   m_GameObject: {fileID: 2096843393}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.262, y: 23.0172, z: 0}
+  m_LocalPosition: {x: 0.2, y: 24, z: 0}
   m_LocalScale: {x: 0.43063998, y: 0.46032, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -11450,16 +11463,17 @@ MonoBehaviour:
   timeToSurvive: 0
   numStartingLines: 0
   score: 0
-  combos: 7
+  combos: 0
   fourCombos: 0
+  fiveCombos: 5
   LCombos: 0
   timesPowerUsed: 0
-  numBlock1Broken: 0
+  numBlueBlockBroken: 0
   numBlock2Broken: 0
-  numBlock3Broken: 0
-  numBlock4Broken: 0
+  numRedBlockBroken: 0
+  numPinkBlockBroken: 0
   numBlock5Broken: 0
-  numBlock6Broken: 0
+  numYellowBlock6Broken: 0
 --- !u!50 &2096843397
 Rigidbody2D:
   serializedVersion: 4
@@ -11938,7 +11952,7 @@ Transform:
   m_GameObject: {fileID: 2133890366}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.17, y: -5.3282, z: 0}
+  m_LocalPosition: {x: -0.2, y: -5, z: 0}
   m_LocalScale: {x: 0.46967, y: 0.49954098, z: 0.46967}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12040,16 +12054,17 @@ MonoBehaviour:
   timeToSurvive: 0
   numStartingLines: 0
   score: 0
-  combos: 7
+  combos: 5
   fourCombos: 0
+  fiveCombos: 0
   LCombos: 0
   timesPowerUsed: 0
-  numBlock1Broken: 0
+  numBlueBlockBroken: 0
   numBlock2Broken: 0
-  numBlock3Broken: 0
-  numBlock4Broken: 0
+  numRedBlockBroken: 0
+  numPinkBlockBroken: 0
   numBlock5Broken: 0
-  numBlock6Broken: 0
+  numYellowBlock6Broken: 20
 --- !u!114 &2133890372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12256,18 +12271,6 @@ PolygonCollider2D:
       - {x: 0.81, y: 1.78}
       - {x: 0.81, y: 2.33}
   m_UseDelaunayMesh: 0
---- !u!114 &2170266035492785332 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1208023105692910372, guid: 9ec21616ed8f64d468d43c809927d35a,
-    type: 3}
-  m_PrefabInstance: {fileID: 2335498568763698121}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2335498568763698121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12441,6 +12444,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corrupt backgrounds
       objectReference: {fileID: 0}
+    - target: {fileID: 5007054204732675579, guid: 9ec21616ed8f64d468d43c809927d35a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5365347533365616930, guid: 9ec21616ed8f64d468d43c809927d35a,
         type: 3}
       propertyPath: m_IsActive
@@ -12486,30 +12494,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ec21616ed8f64d468d43c809927d35a, type: 3}
---- !u!114 &5880947657188552590 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4503893600392133647, guid: 9ec21616ed8f64d468d43c809927d35a,
-    type: 3}
-  m_PrefabInstance: {fileID: 2335498568763698121}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &7403793258449656327 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5554867894113214768, guid: 9ec21616ed8f64d468d43c809927d35a,
-    type: 3}
-  m_PrefabInstance: {fileID: 2335498568763698121}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &7440033990114499250
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12588,30 +12572,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9f6e5b2557fe444aaee8e11b5fc3e6, type: 3}
---- !u!114 &8105377368643140602 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 362661503344815807, guid: 9ec21616ed8f64d468d43c809927d35a,
-    type: 3}
-  m_PrefabInstance: {fileID: 2335498568763698121}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &8356474064891631862 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5709500865807890644, guid: 9ec21616ed8f64d468d43c809927d35a,
-    type: 3}
-  m_PrefabInstance: {fileID: 2335498568763698121}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
