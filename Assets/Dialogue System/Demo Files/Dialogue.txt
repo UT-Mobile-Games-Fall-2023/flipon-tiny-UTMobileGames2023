@@ -1,0 +1,6 @@
+Characters	Sprite Name	Dialogue																					
+Cloud King	CloudKing_Surprised	"“My evil brother, The Lord of Storms, has corrupted the Kingdom and destroyed our villages!”"																					
+	CloudKing_Talking	“I need your help to save the Cloudy Kingdom!”																					
+	CloudKing_Satisfied	“Swipe to connect Crystals and gain points. Go through levels to restore the Kingdom and protect our villagers.”																					
+Lord of Storms	LordOfStorms_Laughing	"“Oh brother, you were always too kind for your own good. Now, it’s time to recognize who the true king is!”"																					
+	LordOfStorms_Arrogant  	"“And don’t worry about your lovely Guardians. They’re now under my watchful eye, and I think you’ll appreciate the changes I’ve made to them and their lands.”"																					
