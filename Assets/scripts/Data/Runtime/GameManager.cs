@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
 	public static GameManager gameManager;
 	public Transform lvlParent;
 	public LvlUnlockContainer lvlUnlocks;
-	private Image[] CorruptBackgrounds = null;
+	public Image[] CorruptBackgrounds = null;
 	private void Awake()
 	{
 		if (gameManager == null)

@@ -1,3 +1,4 @@
-CharacterName, Sentence
-Character1, "Hello there."
-Character2, "How can I help you?"
+Characters	Sprite Name	Dialogue																					
+Cloud King	CloudKing_Surprised	"“My evil brother, The Lord of Storms, has corrupted the Kingdom and destroyed our villages!”"																					
+	CloudKing_Talking	“I need your help to save the Cloudy Kingdom!”																					
+	CloudKing_Satisfied	“Swipe to connect Crystals and gain points. Go through levels to restore the Kingdom and protect our villagers.”				

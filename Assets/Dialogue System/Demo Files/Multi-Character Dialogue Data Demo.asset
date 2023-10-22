@@ -13,10 +13,25 @@ MonoBehaviour:
   m_Name: Multi-Character Dialogue Data Demo
   m_EditorClassIdentifier: 
   dialogueEntries:
-  - characterName: Character 1
-    sentence: " \"Hello there.\"\r"
-    characterSprite: {fileID: 21300000, guid: 375166582ab92e4458c590ba5b03707e, type: 3}
-  - characterName: Character 2
-    sentence: ' "How can I help you?"'
-    characterSprite: {fileID: 21300000, guid: 8f37731cde027614f9dcc3a2d5b6f5cf, type: 3}
-  csvFile: {fileID: 4900000, guid: 6ee188afa3efced46817bb35c40d493e, type: 3}
+  - characterName: Cloud King
+    sentence: "\"\uFFFDMy evil brother, The Lord of Storms, has corrupted the Kingdom
+      and destroyed our villages!\uFFFD\""
+    characterSprite: {fileID: 21300000, guid: 1a3d63bb0eb77af46b5bcd5dae984f22, type: 3}
+  - characterName: Cloud King
+    sentence: "\uFFFDI need your help to save the Cloudy Kingdom!\uFFFD"
+    characterSprite: {fileID: 21300000, guid: bf6f2c3f0f0b03c4c826a15dc9bace78, type: 3}
+  - characterName: Cloud King
+    sentence: "\uFFFDSwipe to connect Crystals and gain points. Go through levels
+      to restore the Kingdom and protect our villagers.\uFFFD"
+    characterSprite: {fileID: 21300000, guid: 43d99e659801e2948968e3710a0da4c4, type: 3}
+  - characterName: Lord of Storms
+    sentence: "\"\uFFFDOh brother, you were always too kind for your own good. Now,
+      it\uFFFDs time to recognize who the true king is!\uFFFD\""
+    characterSprite: {fileID: 21300000, guid: 6ff628a806213864684084f32eeb2775, type: 3}
+  - characterName: Lord of Storms
+    sentence: "\"\uFFFDAnd don\uFFFDt worry about your lovely Guardians. They\uFFFDre
+      now under my watchful eye, and I think you\uFFFDll appreciate the changes I\uFFFDve
+      made to them and their lands.\uFFFD\""
+    characterSprite: {fileID: 21300000, guid: b9fad86dcf12979449f54ee99c18a878, type: 3}
+  csvDelimiter: 0
+  csvFile: {fileID: 4900000, guid: 2e9fc3c3dd61e1040986c297f8cea7bb, type: 3}
